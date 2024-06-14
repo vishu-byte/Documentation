@@ -2,9 +2,9 @@ site_name: Documentation
 theme:
   name: material
   features:
+    - toc.follow
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
     - navigation.top
     - navigation.path
     - search.suggest
@@ -31,17 +31,30 @@ nav:
   - Home: 
       - 'Organization': index.md
   - Knowledge Base:
+      - 'Particle System':
+        - 'What this section is about?' : ParticleSystem/Overview.md 
+        - 'Class: Particles' : ParticleSystem/Class:Particles/Description.md 
+        - 'Class: ParticleSystem' : ParticleSystem/Class:ParticleSystem/Description.md 
       - 'Physics':
-        - 'Organization' : Physics/Overview.md 
-        - 'Class: Langevin_Dynamics' : Physics/Class:LD/Description.md         
+        - 'What this section is about?' : Physics/Overview.md 
+        - 'Class: Langevin_Dynamics' : Physics/Class:LD/Description.md 
+                
  
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 markdown_extensions:
+  - toc:
+        permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
   - admonition
   - pymdownx.arithmatex:
       generic: true
@@ -50,9 +63,14 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true  
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - mdx_math  
+
 
 
 
