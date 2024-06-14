@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Welcome to My documentation
+This is the home page.
+I will be hosting documentation for my general purpose particle system simulator here.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+Organization of this material is simple and as readable as it can be.
+This site will work as a live progress as well as documentation for my project.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+# Class LD
 
-## Project layout
+## Another Heading
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Another heading
+
+Methods are listed
+
+
+!!! note
+    This is the note with tab
+
+
+??? warning
+    This is the warning
