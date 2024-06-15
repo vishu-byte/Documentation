@@ -29,7 +29,8 @@ theme:
 
 nav:
   - Home: 
-      - 'Organization': index.md
+      - 'Introduction': index.md
+      - 'How to use this code': index_2.md
   - Knowledge Base:
       - 'Particle System':
         - 'What this section is about?' : ParticleSystem/Overview.md 
@@ -39,6 +40,11 @@ nav:
         - 'What this section is about?' : Physics/Overview.md 
         - 'Class: Physics' : Physics/Class:Physics/Description.md 
         - 'Class: Langevin_Dynamics' : Physics/Class:LD/Description.md 
+      - 'Putting together - Examples of using this code':
+        - 'What this section is about?' : Putting_together/Overview.md 
+        - 'Open Interacting Gas': Putting_together/Interacting_gas.md
+        - 'Confinement': Putting_together/Circular_boundary.md
+        - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md
                 
  
 extra_javascript:
