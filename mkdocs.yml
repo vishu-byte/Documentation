@@ -31,25 +31,33 @@ nav:
   - Home: 
       - 'Introduction': index.md
       - 'How to use this code': index_2.md
-  - Knowledge Base:
+  - Physics Guide: 
+      - 'Introduction': General_Physics/Overview.md   
+  - Programmer Guide:
+      - 'Introduction' : Programmer_Guide/Overview.md
       - 'Particle System':
-        - 'What this section is about?' : ParticleSystem/Overview.md 
-        - 'Class: Particles' : ParticleSystem/Class:Particles/Description.md 
-        - 'Class: ParticleSystem' : ParticleSystem/Class:ParticleSystem/Description.md 
+        - 'What this section is about?' : Programmer_Guide/ParticleSystem/Overview.md 
+        - 'Class: Particles' : Programmer_Guide/ParticleSystem/Class:Particles/Description.md 
+        - 'Class: ParticleSystem' : Programmer_Guide/ParticleSystem/Class:ParticleSystem/Description.md 
       - 'Physics':
-        - 'What this section is about?' : Physics/Overview.md 
-        - 'Class: Physics' : Physics/Class:Physics/Description.md 
-        - 'Class: Langevin_Dynamics' : Physics/Class:LD/Description.md 
-      - 'Putting together - Examples of using this code':
-        - 'What this section is about?' : Putting_together/Overview.md 
-        - 'Open Interacting Gas': Putting_together/Interacting_gas.md
-        - 'Confinement': Putting_together/Circular_boundary.md
-        - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md
+        - 'What this section is about?' : Programmer_Guide/Physics/Overview.md 
+        - 'Class: Physics' : Programmer_Guide/Physics/Class:Physics/Description.md 
+        - 'Class: Langevin_Dynamics' : Programmer_Guide/Physics/Class:LD/Description.md 
+  - Some example system simulated:
+      - 'What this section is about?' : Putting_together/Overview.md 
+      - 'Open Interacting Gas': Putting_together/Interacting_gas.md
+      - 'Confinement': Putting_together/Circular_boundary.md
+      - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md
+
                 
  
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
+plugins:
+  - search
+  - bibtex:
+      bib_file: "ref.bib"
 
 markdown_extensions:
   - toc:
@@ -72,10 +80,8 @@ markdown_extensions:
   - attr_list
   - pymdownx.tasklist:
       custom_checkbox: true  
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
   - tables 
+  - md_in_html
 
 
 
