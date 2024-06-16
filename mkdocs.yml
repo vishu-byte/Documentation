@@ -36,15 +36,15 @@ nav:
   - Programmer Guide:
       - 'Introduction' : Programmer_Guide/Overview.md
       - 'Particle System':
-        - 'What this section is about?' : Programmer_Guide/ParticleSystem/Overview.md 
+        - 'Overview' : Programmer_Guide/ParticleSystem/Overview.md 
         - 'Class: Particles' : Programmer_Guide/ParticleSystem/Class:Particles/Description.md 
         - 'Class: ParticleSystem' : Programmer_Guide/ParticleSystem/Class:ParticleSystem/Description.md 
       - 'Physics':
-        - 'What this section is about?' : Programmer_Guide/Physics/Overview.md 
+        - 'Overview' : Programmer_Guide/Physics/Overview.md 
         - 'Class: Physics' : Programmer_Guide/Physics/Class:Physics/Description.md 
         - 'Class: Langevin_Dynamics' : Programmer_Guide/Physics/Class:LD/Description.md 
   - Some example system simulated:
-      - 'What this section is about?' : Putting_together/Overview.md 
+      - 'Overview?' : Putting_together/Overview.md 
       - 'Open Interacting Gas': Putting_together/Interacting_gas.md
       - 'Confinement': Putting_together/Circular_boundary.md
       - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md

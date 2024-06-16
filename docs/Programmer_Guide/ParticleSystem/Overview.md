@@ -1,3 +1,4 @@
 ## System of Particles
-This section tells you how a system of particles with various attributes is created. It is this system
-whose evolution we want to track.
+A particle system is a collection of discrete entities called particles. Each particle is
+described by its state and a collection of attributes. We implement the concept of a particle system
+with classes: [`#!c++ Particles`](../ParticleSystem/Class:Particles/Description.md) and [`#!c++ ParticleSystem`](../ParticleSystem/Class:ParticleSystem/Description.md)
