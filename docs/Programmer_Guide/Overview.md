@@ -7,8 +7,8 @@ Furthermore, particle systems have many features that make them well suited for 
 We decided to build a simple base particle system using the object-oriented features of C++ and then use it to develop code for some of the applications that have been used successfully tested.
 
 
-**Particle System**
-In object-oriented terms, particles are objects with a set of attributes and methods.[`#!c++ Particles`](../Programmer_Guide/ParticleSystem/Class:Particles/Description.md)
+**Particles**
+In object-oriented terms, particles are objects with a set of attributes and methods. Particles are handled using class[`#!c++ Particles`](../Programmer_Guide/ParticleSystem/Class:Particles/Description.md)
 
 
 **Particle System**
@@ -17,7 +17,7 @@ described by its state and a collection of attributes. We implement the concept 
 with class [`#!c++ ParticleSystem`](../Programmer_Guide/ParticleSystem/Class:ParticleSystem/Description.md)
 
 
-We can evolve this particle system, (according to some dynamical equations like Newton's equations) with time by looping 
+We can evolve this particle system with time, (according to some dynamical equations like Newton's equations) by looping 
 through the following steps:
 
 1. **Accumulate the forces on each particle**: This is carried out using force calculators, which are methods of class [`#!c++ Physics`](../Programmer_Guide/Physics/Class:Physics/Description.md)

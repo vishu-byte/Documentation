@@ -1,9 +1,6 @@
 ## A system that obeys Langevin Dynamics
 
-
-**Reference**: Computer Simulation of Liquids. Second Edition. M. P. Allen and D. J. Tildesley  (Chapter 12: Mesoscale methods)
-
-Consider a system of `N` particles. The dynamical equation of any of these particles is given by:
+Consider a system of `N` particles. The dynamical equation of any of these particles is given by [@allen2017computer]:
 
 $$
 \dot{\mathbf{r}} = \mathbf{v} = \mathbf{p}/m
@@ -22,7 +19,7 @@ $$
 $\mathbf{G}$ is a Gaussian random variable with zero mean and unit variance.
 
 ## Numerical Integration
-The above dynamical equations are integrated using BOAOB algorithm (Leimkuhler and Matthews (2013a)).
+The above dynamical equations are integrated using BOAOB algorithm (Leimkuhler and Matthews (2013a)) [@allen2017computer].
 
 
 ### Code workflow

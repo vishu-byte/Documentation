@@ -1,4 +1,3 @@
-## Welcome to My documentation
 
 This is a general-purpose classical particle dynamics simulation code that focuses on modelling particulate systems, granular matter etc. This system can be anything ranging from materials like fine powders, grains to cellular assemblies. etc.
 The discrete element is a soft or a hard sphere.

@@ -1,9 +1,10 @@
-site_name: Documentation
+site_name: DEM simulator
 theme:
   name: material
   features:
     - toc.follow
     - navigation.tabs
+    - navigation.footer
     - navigation.sections
     - navigation.top
     - navigation.path
@@ -29,10 +30,10 @@ theme:
 
 nav:
   - Home: 
-      - 'Introduction': index.md
+      - 'Welcome to DEM simulator': index.md
       - 'How to use this code': index_2.md
   - Physics Guide: 
-      - 'Introduction': General_Physics/Overview.md   
+      - 'What we will be simulating?': General_Physics/Overview.md   
   - Programmer Guide:
       - 'Introduction' : Programmer_Guide/Overview.md
       - 'Particle System':
@@ -48,6 +49,9 @@ nav:
       - 'Open Interacting Gas': Putting_together/Interacting_gas.md
       - 'Confinement': Putting_together/Circular_boundary.md
       - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md
+  - Others:
+      - 'Details': Last/Details.md
+      - 'Contributing': Last/Contributing.md   
 
                 
  
@@ -58,6 +62,7 @@ plugins:
   - search
   - bibtex:
       bib_file: "ref.bib"
+  - social    
 
 markdown_extensions:
   - toc:
@@ -83,9 +88,15 @@ markdown_extensions:
   - tables 
   - md_in_html
 
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/vishu-byte
 
 
-
+repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/squidfunk/mkdocs-material
+site_author: Vishu Saini
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/vishu-byte"  target="_blank" rel="noopener">Vishu Saini</a>       
+  &copy; 2024 <a href="https://github.com/vishu-byte"  target="_blank" rel="noopener">Vishu Saini</a>       
