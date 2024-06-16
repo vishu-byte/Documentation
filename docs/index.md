@@ -32,4 +32,4 @@ It has git tracking as well.
 ## Example systems to show
 
 
-![Screenshot](particle.png)
+![Mips](mips.gif)
