@@ -32,4 +32,7 @@ It has git tracking as well.
 ## Example systems to show
 
 
-![Mips](mips.gif)
+<figure markdown="span">
+  ![MIPS](mips.gif){ width="300" }
+  <figcaption>MIPS</figcaption>
+</figure>
