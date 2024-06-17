@@ -1,11 +1,3 @@
-## Introduction
-
-Here, we explain what kind of systems, in general, this code can help you in simulating.
-Therefore, in this section, we will briefly discuss the physical models.
-
-
-## What kind of systems this code can simulate?
-
 A typical system would be a collection of large numbers of soft or hard spheres that can interact with
 each other via repulsion or attraction and contact forces (e.g frictional forces)
 These entities have transational as well as rotational degrees of freedom. Therefore, dynamical equations will involve the

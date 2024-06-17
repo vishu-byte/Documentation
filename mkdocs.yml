@@ -47,7 +47,7 @@ nav:
       - 'Hands-on examples':
         - 'Gas in bulk': Putting_together/Interacting_gas.md
         - 'Confined Gas': Putting_together/Circular_boundary.md
-        - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md
+        - 'Langevin Dynamics': Putting_together/Langevin_Dynamics.md
   - Details:
       - 'License and contributing': Last/Details.md
     

@@ -22,3 +22,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## How you can contribute
+
+This simulator is an actively maintained and constantly evolving project that aims to serve diverse applications.
+You can contribute by making a pull request that will be reviewed and integrated into the main repository when the changes made are approved. You can contribute bug fixes, changes to the documentation, or new functionality you have developed.
+
+If you have any ideas about this simulator's improvements or would like to contribute to the project, do not hesitate
+to contact the author:
+
+Vishu Saini 
+
+Contact: [vishusaini220301@gmail.com](mailto:vishusaini220301@gmail.com)
