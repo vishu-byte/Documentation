@@ -33,7 +33,7 @@ nav:
       - 'Welcome to Active Matter DEM Simulator': index.md
       - 'How to use this code': index_2.md
   - Physics Guide: 
-      - 'What we will be simulating?': General_Physics/Overview.md   
+      - 'What physical systems we can simulate?': General_Physics/Overview.md   
   - Programmer Guide:
       - 'Introduction' : Programmer_Guide/Overview.md
       - 'Particle System':
@@ -44,14 +44,13 @@ nav:
         - 'Overview' : Programmer_Guide/Physics/Overview.md 
         - 'Class: Physics' : Programmer_Guide/Physics/Class:Physics/Description.md 
         - 'Class: Langevin_Dynamics' : Programmer_Guide/Physics/Class:LD/Description.md 
-  - Hands-on examples:
-      - 'Overview?' : Putting_together/Overview.md 
-      - 'Open Interacting Gas': Putting_together/Interacting_gas.md
-      - 'Confinement': Putting_together/Circular_boundary.md
-      - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md
-  - Others:
-      - 'Details': Last/Details.md
-      - 'Contributing': Last/Contributing.md   
+      - 'Hands-on examples':
+        - 'Gas in bulk': Putting_together/Interacting_gas.md
+        - 'Confined Gas': Putting_together/Circular_boundary.md
+        - 'Langevin_Dynamics': Putting_together/Langevin_Dynamics.md
+  - Details:
+      - 'License and contributing': Last/Details.md
+    
 
                 
  

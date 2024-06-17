@@ -5,7 +5,7 @@ This documentation is organized into the following parts:
 
 1. The [Physics Guide](General_Physics/Overview.md) with information about general physics that goes behind this simulation code.
 2. The [Programmer Guide](Programmer_Guide/Overview.md) with information about code structure: libraries and methods.
-3. The [Hands-on examples](Putting_together/Overview.md) with some working examples to illustrate the use of this code.
+3. The [Hands-on examples](Putting_together/Interacting_gas.md) with some working examples to illustrate the use of this code.
 
 Organization of this material is simple and as readable as it can be.
 
