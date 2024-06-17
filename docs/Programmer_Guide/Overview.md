@@ -47,3 +47,10 @@ Particle system creation is handled by classes [`#!c++ Particles`](../Programmer
 
 ### Physics
 The physics of the simulation is handled by classes [`#!c++ Physics`](../Programmer_Guide/Physics/Class:Physics/Description.md), [`#!c++ Langevin_Dynamics`](../Programmer_Guide/Physics/Class:LD/Description.md)
+
+
+
+## Graphical Rendition
+This code is used to generate particle attributes with time.
+To graphically render such a state, one must write the state of the particle system to a ouput
+file (eg. .xyz) that can be rendered in visualization frameworks like [Ovito](https://www.ovito.org/).

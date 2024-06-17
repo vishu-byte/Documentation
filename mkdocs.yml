@@ -1,4 +1,4 @@
-site_name: DEM simulator
+site_name: Active Matter DEM Simulator
 theme:
   name: material
   features:
@@ -30,7 +30,7 @@ theme:
 
 nav:
   - Home: 
-      - 'Welcome to DEM simulator': index.md
+      - 'Welcome to Active Matter DEM Simulator': index.md
       - 'How to use this code': index_2.md
   - Physics Guide: 
       - 'What we will be simulating?': General_Physics/Overview.md   

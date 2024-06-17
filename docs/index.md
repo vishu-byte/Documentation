@@ -22,17 +22,18 @@ It has git tracking as well.
     of several other features.
 
 
-## Example systems to show
-
+## Gallery
+The following examples depict the cases when this simulation code was used to reproduce results from literature of 
+Active matter and Granular matter physics.
 
 <figure markdown="span">
   ![MIPS](mips.gif){ width="300" }
-  <figcaption>MIPS</figcaption>
+  <figcaption> Motility Induced Phase Separation (Cates, M. E., & Tailleur, J. (2015). "Motility-induced phase separation.")</figcaption>
 </figure>
 
 
 <figure markdown="span">
-  ![MIPS](Spinner_gas_confined.gif){ width="300" }
-  <figcaption>Confined gas of active spinners</figcaption>
+  ![MIPS](Confined_chiral.gif){ width="300" }
+  <figcaption>Confined gas of active spinners (Tsai, J-C., et al. "A chiral granular gas").</figcaption>
 </figure>
 
