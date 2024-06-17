@@ -1,19 +1,13 @@
 
-This is a general-purpose classical particle dynamics simulation code that focuses on modelling particulate systems, granular matter etc. This system can be anything ranging from materials like fine powders, grains to cellular assemblies. etc.
-The discrete element is a soft or a hard sphere.
-
-This is the home page.
-I will be hosting documentation for my general-purpose particle system simulator here.
-
-
+This is a general-purpose classical particle dynamics simulation code that focuses on modelling particulate systems, granular matter etc. This system can be anything ranging from materials like fine powders, grains to cellular assemblies. etc. The discrete element is a soft or a hard sphere.
 
 This documentation is organized into the following parts:
 
-1. [Physics Guide](General_Physics/Overview.md): 
-2. [Programmer Guide](Programmer_Guide/Overview.md):
+1. The [Physics Guide](General_Physics/Overview.md) with information about general physics that goes behind this simulation code.
+2. The [Programmer Guide](Programmer_Guide/Overview.md) with information about code structure: libraries and methods.
+3. The [Hands-on examples](Putting_together/Overview.md) with some working examples to illustrate the use of this code.
 
 Organization of this material is simple and as readable as it can be.
-This site will work as a live progress as well as documentation for my project.
 
 
 1. The benefit of this code is that it generalized; it acts as a base version that can be made specific by adding
@@ -35,3 +29,10 @@ It has git tracking as well.
   ![MIPS](mips.gif){ width="300" }
   <figcaption>MIPS</figcaption>
 </figure>
+
+
+<figure markdown="span">
+  ![MIPS](Spinner_gas_confined.gif){ width="300" }
+  <figcaption>Confined gas of active spinners</figcaption>
+</figure>
+

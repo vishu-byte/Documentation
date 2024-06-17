@@ -44,7 +44,7 @@ nav:
         - 'Overview' : Programmer_Guide/Physics/Overview.md 
         - 'Class: Physics' : Programmer_Guide/Physics/Class:Physics/Description.md 
         - 'Class: Langevin_Dynamics' : Programmer_Guide/Physics/Class:LD/Description.md 
-  - Some example system simulated:
+  - Hands-on examples:
       - 'Overview?' : Putting_together/Overview.md 
       - 'Open Interacting Gas': Putting_together/Interacting_gas.md
       - 'Confinement': Putting_together/Circular_boundary.md
@@ -94,8 +94,8 @@ extra:
       link: https://github.com/vishu-byte
 
 
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: vishu-byte/Active-Matter-DEM-Simulation
+repo_url: https://github.com/vishu-byte/Active-Matter-DEM-Simulation
 site_author: Vishu Saini
 
 copyright: |
