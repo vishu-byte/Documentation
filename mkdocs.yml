@@ -31,7 +31,7 @@ theme:
 nav:
   - Home: 
       - 'Welcome to Active Matter DEM Simulator': index.md
-      - 'How to use this code': index_2.md
+      - 'How to get this code': index_2.md
   - Physics Guide: 
       - 'What physical systems we can simulate?': General_Physics/Overview.md   
   - Programmer Guide:

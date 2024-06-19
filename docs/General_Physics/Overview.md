@@ -3,11 +3,6 @@ each other via repulsion or attraction and contact forces (e.g frictional forces
 These entities have transational as well as rotational degrees of freedom. Therefore, dynamical equations will involve the
 evolution of both kinds of degrees of freedom.
 
-1. Active systems: Cellular assemblies etc.
-2. Granular matter
-3. Fluids
-
-
 ### Equations of motion
 Given the sum of forces $\mathbf{f_{i}}$ on a particle $i$ ($\mathbf{f_{i}}$  can be from other particles, from walls or any potential), the problem in hand is to integrate the Newton's equations of motions for the translational and rotational
 degrees of freedom:
