@@ -1,13 +1,15 @@
 
-This is a general-purpose classical particle dynamics simulation code that focuses on modelling particulate systems/ granular matter. This system can be anything ranging from materials like colloids, grains to active and living systems like cellular assemblies. The discrete element is a soft or a hard sphere.
+This is a versatile classical particle dynamics simulation code that focuses on numerically modelling particulate systems/ granular matter. The system can be anything ranging from materials like colloids, grains to active and living systems like cellular assemblies. 
+This code incorporates Discrete-Element-Method (DEM) simulation techniques [@zhu2007discrete] for application to both passive and active granular matter.
 
 ## Key features
 
-* Simulates a diverse range of physical systems including colloids, cellular assemblies, spinners etc
-* Availability of various integration schemes (Velocity-Verlet, Leimkuhler-Matthews) and force calculation
+* Simulates a diverse range of physical systems including colloids, cellular assemblies, spinners etc.
+* Availability of various integration schemes (Velocity-Verlet, Leimkuhler-Matthews etc.) and force calculation
   algorithms.
 * Realistic Contact force models predefined.
 * Customizable and extendable codebase for specific research needs.
+* Easy to use
 
 
 ## Organization of this documentaion
@@ -44,5 +46,5 @@ Directed percolation [1, see footnote] (Grober et al. "Unconventional colloidal 
 </figure>
 
 
-[^1]: [Pabitra Masanta](https://www.linkedin.com/in/pabitra-masanta-344036205/) worked on this for his master's thesis work at IIT Bombay
+[^2]: [Pabitra Masanta](https://www.linkedin.com/in/pabitra-masanta-344036205/) worked on this for his master's thesis work at IIT Bombay
 
