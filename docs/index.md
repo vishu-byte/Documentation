@@ -1,12 +1,14 @@
 
-This is a general-purpose classical particle dynamics simulation code that focuses on modelling particulate systems, granular matter etc. This system can be anything ranging from materials like fine powders, grains to cellular assemblies. etc. The discrete element is a soft or a hard sphere.
+This is a general-purpose classical particle dynamics simulation code that focuses on modelling particulate systems/ granular matter. This system can be anything ranging from materials like colloids, grains to active and living systems like cellular assemblies. The discrete element is a soft or a hard sphere.
 
-1. Active systems: Cellular assemblies etc.
-2. Granular matter
-3. Fluids
+## Key features
 
-1. The benefit of this code is that it generalized; it acts as a base version that can be made specific by adding
-   your own code, customizing the present code.
+* Simulates a diverse range of physical systems including colloids, cellular assemblies, spinners etc
+* Availability of various integration schemes (Velocity-Verlet, Leimkuhler-Matthews) and force calculation
+  algorithms.
+* Realistic Contact force models predefined.
+* Customizable and extendable codebase for specific research needs.
+
 
 ## Organization of this documentaion
 
