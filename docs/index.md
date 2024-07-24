@@ -38,7 +38,16 @@ Active matter and Granular matter physics.
 Directed percolation [1, see footnote] (Grober et al. "Unconventional colloidal aggregation in chiral bacterial baths." Nature Physics).
 
 </figcaption>
+
 </figure>
+
+<figure markdown="span">
+  ![CG](Chiral_LJL.gif){ width="300" }
+  <figcaption> Phase-separation in Chiral Lennard-Jones Fluid (Claudio B. Caporusso, et al. "Phase Coexistence and Edge Currents in the Chiral Lennard-Jones Fluid").</figcaption>
+</figure>
+
+
+
 
 <figure markdown="span">
   ![CG](Confined_chiral.gif){ width="300" }
